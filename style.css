@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contendor{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Gradients */
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+
+.card {
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 500px;
+    height: 200px;
+    padding-bottom: 5px;
+}
+
+.txto{
+    font-family: 'Tektur', cursive;
+}
+
+.card p{
+    padding-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.card button{
+    width: 100px;
+    height: 30px;
+    background-color: #0c3483;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.card button:hover{
+    background-color: orangered;
+}
+
