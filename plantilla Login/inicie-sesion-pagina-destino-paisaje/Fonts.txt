@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: Dosis
+Author: Impallari Type
+Url: http://www.fontsquirrel.com/fonts/dosis
+
+Font: Montserrat
+Author: Julieta Ulanovsky
+Url: http://www.fontsquirrel.com/fonts/montserrat
+
+Font: Nickainley
+Author: Fontfabric
+Url: https://www.fontsquirrel.com/fonts/nickainley
