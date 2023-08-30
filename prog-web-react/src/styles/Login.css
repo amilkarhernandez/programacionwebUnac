@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;800&display=swap');
+
+/* font-family: 'Dosis', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;1,300;1,400&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/* font-family: 'Satisfy', cursive; */
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/background.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardinfo{
+    width: 450px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardinfo h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+}
+
+.cardinfo h3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.cardinfo p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.cardform{
+    width: 450px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.721);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardform h4{
+    color: blue;
+    font-weight: 100;
+}
+
+.input_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 100%;
+    padding-top: 10px;
+}
+
+.inputs{
+    height: 30px;
+    width: 200px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 100px;
+    padding-inline: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #bc4fd3;
+    border-radius: 30px;
+    color: white;
+}
