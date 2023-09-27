@@ -6,6 +6,9 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+//Routes
+const UsuariosRoutes = require("./src/routes/UserRoutes"); 
+
 const app = express();
 
 //Datos codifcados en URL
@@ -43,6 +46,9 @@ mongoose
     console.log(err);
     throw err;
   });
+
+//Setting Routes
+app.use("/api", UsuariosRoutes)  
 
 //Export
 module.exports = app;
