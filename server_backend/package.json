@@ -1,0 +1,22 @@
+{
+  "name": "empleados_backend",
+  "version": "1.0.0",
+  "description": "es una api de empleados",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Amilkar Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
