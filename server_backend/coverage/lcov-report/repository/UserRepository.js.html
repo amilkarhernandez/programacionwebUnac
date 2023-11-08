@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">55.4% </span>
+                <span class="strong">85.13% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>41/74</span>
+                <span class='fraction'>63/74</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">83.33% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>12/24</span>
+                <span class='fraction'>20/24</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">55.4% </span>
+                <span class="strong">85.13% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>41/74</span>
+                <span class='fraction'>63/74</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -271,42 +271,42 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const {Response} = require("../utils/Response"); 
@@ -393,43 +393,43 @@ module.exports.FindOneUsername = <span class="fstat-no" title="function not cove
     });
 }
 &nbsp;
-module.exports.deleteUser = <span class="fstat-no" title="function not covered" >as</span>ync (id) =&gt;{
-<span class="cstat-no" title="statement not covered" >    return new Promise(<span class="fstat-no" title="function not covered" >(r</span>esolve, reject) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >        UserModel</span>
+module.exports.deleteUser = async (id) =&gt;{
+    return new Promise((resolve, reject) =&gt; {
+        UserModel
         .findByIdAndDelete(id)
-        .then(<span class="fstat-no" title="function not covered" >(r</span>esp)=&gt;{
-<span class="cstat-no" title="statement not covered" >            Response.status = 200;</span>
-<span class="cstat-no" title="statement not covered" >            Response.message = "Registro Eliminado correctamente";</span>
-<span class="cstat-no" title="statement not covered" >            Response.result = resp;</span>
-<span class="cstat-no" title="statement not covered" >            resolve(Response);</span>
+        .then((resp)=&gt;{
+            Response.status = 200;
+            Response.message = "Registro Eliminado correctamente";
+            Response.result = resp;
+            resolve(Response);
         })
-        .catch(<span class="fstat-no" title="function not covered" >(e</span>rr) =&gt;{
-<span class="cstat-no" title="statement not covered" >            console.log("error:", err)</span>
-<span class="cstat-no" title="statement not covered" >            Response.status = 500;</span>
-<span class="cstat-no" title="statement not covered" >            Response.message = "Ocurrio un error en el servidor";</span>
-<span class="cstat-no" title="statement not covered" >            Response.result = err;</span>
-<span class="cstat-no" title="statement not covered" >            reject(Response);</span>
+        .catch((err) =&gt;{
+            console.log("error:", err)
+            Response.status = 500;
+            Response.message = "Ocurrio un error en el servidor";
+            Response.result = err;
+            reject(Response);
         })
     });
 }
 &nbsp;
 &nbsp;
-module.exports.updateUser = <span class="fstat-no" title="function not covered" >as</span>ync (id, user) =&gt;{
-<span class="cstat-no" title="statement not covered" >    return new Promise(<span class="fstat-no" title="function not covered" >(r</span>esolve, reject) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >        UserModel</span>
+module.exports.updateUser = async (id, user) =&gt;{
+    return new Promise((resolve, reject) =&gt; {
+        UserModel
         .findOneAndUpdate({_id : id}, {nombres: user.nombres, apellidos: user.apellidos})
-        .then(<span class="fstat-no" title="function not covered" >(r</span>esp)=&gt;{
-<span class="cstat-no" title="statement not covered" >            Response.status = 200;</span>
-<span class="cstat-no" title="statement not covered" >            Response.message = "Registro Actualizado correctamente";</span>
-<span class="cstat-no" title="statement not covered" >            Response.result = resp;</span>
-<span class="cstat-no" title="statement not covered" >            resolve(Response);</span>
+        .then((resp)=&gt;{
+            Response.status = 200;
+            Response.message = "Registro Actualizado correctamente";
+            Response.result = resp;
+            resolve(Response);
         })
-        .catch(<span class="fstat-no" title="function not covered" >(e</span>rr) =&gt;{
-<span class="cstat-no" title="statement not covered" >            console.log("error:", err)</span>
-<span class="cstat-no" title="statement not covered" >            Response.status = 500;</span>
-<span class="cstat-no" title="statement not covered" >            Response.message = "Ocurrio un error en el servidor";</span>
-<span class="cstat-no" title="statement not covered" >            Response.result = err;</span>
-<span class="cstat-no" title="statement not covered" >            reject(Response);</span>
+        .catch((err) =&gt;{
+            console.log("error:", err)
+            Response.status = 500;
+            Response.message = "Ocurrio un error en el servidor";
+            Response.result = err;
+            reject(Response);
         })
     });
 }</pre></td></tr></table></pre>
@@ -439,7 +439,7 @@ module.exports.updateUser = <span class="fstat-no" title="function not covered" 
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-11-08T02:52:11.775Z
+                at 2023-11-08T03:07:32.563Z
             </div>
         <script src="../prettify.js"></script>
         <script>

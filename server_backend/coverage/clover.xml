@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1699411931817" clover="3.2.0">
-  <project timestamp="1699411931818" name="All files">
-    <metrics statements="139" coveredstatements="71" conditionals="10" coveredconditionals="3" methods="36" coveredmethods="17" elements="185" coveredelements="91" complexity="0" loc="139" ncloc="139" packages="5" files="6" classes="6"/>
+<coverage generated="1699412852618" clover="3.2.0">
+  <project timestamp="1699412852618" name="All files">
+    <metrics statements="139" coveredstatements="93" conditionals="10" coveredconditionals="3" methods="36" coveredmethods="25" elements="185" coveredelements="121" complexity="0" loc="139" ncloc="139" packages="5" files="6" classes="6"/>
     <package name="controllers">
       <metrics statements="48" coveredstatements="13" conditionals="10" coveredconditionals="3" methods="9" coveredmethods="2"/>
       <file name="UsuariosController.js" path="/Users/amilkarhernandez/UNAC/2023-2/server_backend/src/controllers/UsuariosController.js">
@@ -67,14 +67,14 @@
       </file>
     </package>
     <package name="repository">
-      <metrics statements="76" coveredstatements="43" conditionals="0" coveredconditionals="0" methods="25" coveredmethods="13"/>
+      <metrics statements="76" coveredstatements="65" conditionals="0" coveredconditionals="0" methods="25" coveredmethods="21"/>
       <file name="Suma.js" path="/Users/amilkarhernandez/UNAC/2023-2/server_backend/src/repository/Suma.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
       </file>
       <file name="UserRepository.js" path="/Users/amilkarhernandez/UNAC/2023-2/server_backend/src/repository/UserRepository.js">
-        <metrics statements="74" coveredstatements="41" conditionals="0" coveredconditionals="0" methods="24" coveredmethods="12"/>
+        <metrics statements="74" coveredstatements="63" conditionals="0" coveredconditionals="0" methods="24" coveredmethods="20"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
@@ -126,29 +126,29 @@
         <line num="79" count="0" type="stmt"/>
         <line num="80" count="0" type="stmt"/>
         <line num="85" count="3" type="stmt"/>
-        <line num="86" count="0" type="stmt"/>
-        <line num="87" count="0" type="stmt"/>
-        <line num="90" count="0" type="stmt"/>
-        <line num="91" count="0" type="stmt"/>
-        <line num="92" count="0" type="stmt"/>
-        <line num="93" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="97" count="0" type="stmt"/>
-        <line num="98" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="100" count="0" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
         <line num="106" count="3" type="stmt"/>
-        <line num="107" count="0" type="stmt"/>
-        <line num="108" count="0" type="stmt"/>
-        <line num="111" count="0" type="stmt"/>
-        <line num="112" count="0" type="stmt"/>
-        <line num="113" count="0" type="stmt"/>
-        <line num="114" count="0" type="stmt"/>
-        <line num="117" count="0" type="stmt"/>
-        <line num="118" count="0" type="stmt"/>
-        <line num="119" count="0" type="stmt"/>
-        <line num="120" count="0" type="stmt"/>
-        <line num="121" count="0" type="stmt"/>
+        <line num="107" count="2" type="stmt"/>
+        <line num="108" count="2" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="120" count="1" type="stmt"/>
+        <line num="121" count="1" type="stmt"/>
       </file>
     </package>
     <package name="test.mocks">
