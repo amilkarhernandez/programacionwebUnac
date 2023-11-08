@@ -25,7 +25,7 @@ module.exports.FindAllUser = async (sort) =>{
     return new Promise((resolve, reject) => {
         UserModel
         .find()
-        .sort(sort)
+        // .sort(sort)
         .then((resp)=>{
             Response.status = 200;
             Response.message = "Registros Encontrados";
